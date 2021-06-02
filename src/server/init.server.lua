@@ -1,1 +1,4 @@
-print("Hello world, from server!")
+local Airplane = require(script.Airplane)
+
+local myAirplane = Airplane.new()
+myAirplane.Components.Appearance:SetModel("Biplane")
